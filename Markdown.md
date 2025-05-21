@@ -25,72 +25,78 @@ In short: *Make writing for the web simple and intuitive.*
 
 Here are some examples of the most commonly used Markdown elements:
 
-### Headings
-
-```markdown
-# H1
-## H2
-### H3
 ```
+# Markdown syntax guide
 
-### Emphasis
+## Headers
 
-```markdown
-*Italic* or _Italic_  
-**Bold** or __Bold__  
-~~Strikethrough~~
+# This is a Heading h1
+## This is a Heading h2
+###### This is a Heading h6
+
+## Emphasis
+
+*This text will be italic*  
+_This will also be italic_
+
+**This text will be bold**  
+__This will also be bold__
+
+_You **can** combine them_
+
+## Lists
+
+### Unordered
+
+* Item 1
+* Item 2
+* Item 2a
+* Item 2b
+    * Item 3a
+    * Item 3b
+
+### Ordered
+
+1. Item 1
+2. Item 2
+3. Item 3
+    1. Item 3a
+    2. Item 3b
+
+## Images
+
+![This is an alt text.](/image/img.png "This is a sample image.")
+
+## Links
+
+You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
+
+## Blockquotes
+
+> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
+>
+>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+## Tables
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+
+## Blocks of code
+
+```js
+console.log("hello world");
 ```
-
-### Lists
-
-```markdown
-- Item 1
-- Item 2
-  - Subitem
-
-1. First
-2. Second
-```
-
-### Links and Images
-
-```markdown
-[OpenAI](https://openai.com)
-
-![Alt text](https://via.placeholder.com/100)
-```
-
-### Code
-
-Inline code: `` `code` ``
-
-Block code:
-\`\`\`python  
-print("Hello, world!")  
-\`\`\`
-
-### Blockquotes
-
-```markdown
-> This is a quote.
-```
-
-### Horizontal Rule
-
-```markdown
----
-```
-
----
 
 ## 🧪 Try It Out
 
 You can test Markdown live on:
 - [Markdown Live Preview](https://markdownlivepreview.com/)
 - GitHub (create a `.md` file and view it in your repo)
-
 ---
 
 ## 📚 More Resources
-
 - [Mastering Markdown – GitHub Docs](https://guides.github.com/features/mastering-markdown/)
