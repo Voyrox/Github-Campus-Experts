@@ -16,6 +16,11 @@ Explore a list of inspiring and creative GitHub profile examples. This will help
 ### ✅ [`Markdown.md`](./Markdown.md)
 Learn what Markdown is, why it was created, and how to use it. Includes examples of commonly used Markdown syntax.
 
+### ✅ [`Optimization.md`](./Optimization.md)
+Learn what optimisation is, and why we use it.
+
+### ✅ [`Etiquette.md`](./Etiquette.md)
+Learn what code Etiquette is, why it's a standard and why it's essential.
 ---
 
 ## 🎯 Goal
